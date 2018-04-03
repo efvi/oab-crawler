@@ -1,0 +1,27 @@
+{
+  "name": "oab-crawler",
+  "version": "1.0.0",
+  "description": "oab-crawler",
+  "scripts": {
+    "start": "DEBUG=* node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler,pdf"
+  ],
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "author": "Eduardo Vieira <eduardofelipevieira@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "firebase-admin": "^5.9.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "moment": "^2.20.1",
+    "node-fetch": "^2.1.1",
+    "path": "^0.12.7",
+    "sprintf-js": "^1.1.1"
+  }
+}
