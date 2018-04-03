@@ -4,6 +4,7 @@
   "description": "oab-crawler",
   "scripts": {
     "start": "DEBUG=* node ./bin/index.js",
+    "start-win": "SET DEBUG=* & node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
